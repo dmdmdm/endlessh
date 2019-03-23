@@ -9,3 +9,6 @@ endlessh: endlessh.c
 
 clean:
 	rm -rf endlessh
+
+install:
+	install endlessh /usr/local/bin
